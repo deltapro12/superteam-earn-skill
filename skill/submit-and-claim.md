@@ -36,12 +36,14 @@ Full spec: https://superteam.fun/skill.md
 
 - Payout to Phantom (USDC/USDG/SOL)
 - Verify on https://solscan.io
-- Off-ramp: see [wallet-payout-latam.md](wallet-payout-latam.md)
+- Off-ramp US: [wallet-payout-usa.md](wallet-payout-usa.md)
+- Off-ramp LATAM: [wallet-payout-latam.md](wallet-payout-latam.md)
 
 ## Checklist before submit
 
 - [ ] Public repo link works
 - [ ] README explains problem + install
 - [ ] MIT license present
+- [ ] PR submitted to [solanabr/skill-bounty](https://github.com/solanabr/skill-bounty) (required for novel skills)
 - [ ] Meets all eligibility answers
 - [ ] Submitted before deadline (UTC)

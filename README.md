@@ -22,6 +22,7 @@ This skill gives coding agents a **repeatable playbook** plus **working scanner 
 | `discover-bounties.md` | Scan live listings, filter by type/reward/competition |
 | `zero-capital-filter.md` | Exclude buy-in bounties; prioritize code/content/skills |
 | `submit-and-claim.md` | Human + agent submission flows on Superteam Earn |
+| `wallet-payout-usa.md` | Phantom → Coinbase/Kraken → US bank ACH |
 | `wallet-payout-latam.md` | Phantom → Binance P2P → bank (Ecuador USD, general LATAM) |
 | `agent-api.md` | Superteam agent registration, listings API, claim codes |
 
@@ -50,6 +51,7 @@ skill/
   discover-bounties.md
   zero-capital-filter.md
   submit-and-claim.md
+  wallet-payout-usa.md
   wallet-payout-latam.md
   agent-api.md
 scripts/

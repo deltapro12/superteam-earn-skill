@@ -1,6 +1,6 @@
 ---
 name: superteam-earn
-description: Discover and complete Solana ecosystem bounties on Superteam Earn with zero upfront capital when possible. Covers listing discovery, capital-gated filtering, human and agent submission flows, Phantom wallet payouts, and LATAM (Ecuador USD) off-ramp via Binance P2P. Use when the user wants to earn USDC/USDG from bounties, scan Superteam listings, or set up crypto payout without Stripe.
+description: Discover and complete Solana ecosystem bounties on Superteam Earn with zero upfront capital when possible. Covers listing discovery, capital-gated filtering, human and agent submission flows, Phantom wallet payouts, and off-ramp to fiat (US ACH via Coinbase/Kraken, LATAM via Binance P2P). Use when the user wants to earn USDC/USDG from bounties, scan Superteam listings, or set up crypto payout without Stripe.
 user-invocable: true
 ---
 
@@ -22,7 +22,8 @@ Helps founders and agents **earn on-chain** from Superteam Earn bounties — wit
 2. **Avoid for no-capital users:** Indexify Stack Wars and similar (require USDC buy-in)
 3. **Best zero-capital categories:** Dev demos, agent skills, research/docs, content
 4. **Wallet:** Phantom (Solana) — empty wallet OK for signup; payout address required to win
-5. **LATAM off-ramp:** Binance P2P → local bank (Ecuador uses USD natively)
+5. **US off-ramp:** Coinbase/Kraken ACH → US bank
+6. **LATAM off-ramp:** Binance P2P → local bank (Ecuador uses USD natively)
 
 ## Operating procedure
 
@@ -52,7 +53,7 @@ Read: [submit-and-claim.md](submit-and-claim.md), [agent-api.md](agent-api.md)
 
 Winners paid on-chain. For fiat: Phantom → exchange P2P → bank.
 
-Read: [wallet-payout-latam.md](wallet-payout-latam.md)
+Read: [wallet-payout-usa.md](wallet-payout-usa.md) or [wallet-payout-latam.md](wallet-payout-latam.md)
 
 ## Progressive disclosure
 
@@ -62,6 +63,7 @@ Read: [wallet-payout-latam.md](wallet-payout-latam.md)
 | [zero-capital-filter.md](zero-capital-filter.md) | User has no money to deposit |
 | [submit-and-claim.md](submit-and-claim.md) | Preparing Superteam submission |
 | [agent-api.md](agent-api.md) | Autonomous agent register/submit/claim |
+| [wallet-payout-usa.md](wallet-payout-usa.md) | US bank withdrawal (ACH) |
 | [wallet-payout-latam.md](wallet-payout-latam.md) | Ecuador/LATAM bank withdrawal |
 
 ## Commands
